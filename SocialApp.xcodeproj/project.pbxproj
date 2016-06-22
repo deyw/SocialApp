@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		F5A3B6DF1D1A8A0E005CCF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A3B6DD1D1A8A0E005CCF5E /* LaunchScreen.storyboard */; };
 		F5A3B6EA1D1A8A0E005CCF5E /* SocialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6E91D1A8A0E005CCF5E /* SocialAppTests.swift */; };
 		F5A3B6F51D1A8A0E005CCF5E /* SocialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6F41D1A8A0E005CCF5E /* SocialAppUITests.swift */; };
+		F5A3B7031D1A8BB4005CCF5E /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B7021D1A8BB4005CCF5E /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F5A3B6F01D1A8A0E005CCF5E /* SocialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A3B6F41D1A8A0E005CCF5E /* SocialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppUITests.swift; sourceTree = "<group>"; };
 		F5A3B6F61D1A8A0E005CCF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A3B7021D1A8BB4005CCF5E /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F5A3B6DB1D1A8A0E005CCF5E /* Assets.xcassets */,
 				F5A3B6DD1D1A8A0E005CCF5E /* LaunchScreen.storyboard */,
 				F5A3B6E01D1A8A0E005CCF5E /* Info.plist */,
+				F5A3B7021D1A8BB4005CCF5E /* Readme.md */,
 			);
 			path = SocialApp;
 			sourceTree = "<group>";
@@ -214,7 +217,7 @@
 				};
 			};
 			buildConfigurationList = F5A3B6CC1D1A8A0E005CCF5E /* Build configuration list for PBXProject "SocialApp" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -267,6 +270,7 @@
 			files = (
 				F5A3B6D71D1A8A0E005CCF5E /* ViewController.swift in Sources */,
 				F5A3B6D51D1A8A0E005CCF5E /* AppDelegate.swift in Sources */,
+				F5A3B7031D1A8BB4005CCF5E /* Readme.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
