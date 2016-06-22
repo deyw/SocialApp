@@ -17,7 +17,6 @@
 		F5A3B6DF1D1A8A0E005CCF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A3B6DD1D1A8A0E005CCF5E /* LaunchScreen.storyboard */; };
 		F5A3B6EA1D1A8A0E005CCF5E /* SocialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6E91D1A8A0E005CCF5E /* SocialAppTests.swift */; };
 		F5A3B6F51D1A8A0E005CCF5E /* SocialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6F41D1A8A0E005CCF5E /* SocialAppUITests.swift */; };
-		F5A3B7031D1A8BB4005CCF5E /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B7021D1A8BB4005CCF5E /* Readme.md */; };
 		F5A3B7051D1A8D68005CCF5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5A3B7041D1A8D68005CCF5E /* GoogleService-Info.plist */; };
 		F5A3B7071D1A9735005CCF5E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B7061D1A9735005CCF5E /* SignInVC.swift */; };
 		F5A3B70A1D1A9775005CCF5E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B7091D1A9775005CCF5E /* SignUpVC.swift */; };
@@ -66,7 +65,6 @@
 		F5A3B6F01D1A8A0E005CCF5E /* SocialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A3B6F41D1A8A0E005CCF5E /* SocialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppUITests.swift; sourceTree = "<group>"; };
 		F5A3B6F61D1A8A0E005CCF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5A3B7021D1A8BB4005CCF5E /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = SocialApp/Readme.md; sourceTree = "<group>"; };
 		F5A3B7041D1A8D68005CCF5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F5A3B7061D1A9735005CCF5E /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		F5A3B7091D1A9775005CCF5E /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 				F5A3B6E81D1A8A0E005CCF5E /* SocialAppTests */,
 				F5A3B6F31D1A8A0E005CCF5E /* SocialAppUITests */,
 				F5A3B6D21D1A8A0E005CCF5E /* Products */,
-				F5A3B7021D1A8BB4005CCF5E /* Readme.md */,
 				4F8120C1740C14ED3479DAAF /* Pods */,
 				BDFBCE6F5C10E154E3BEFFCF /* Frameworks */,
 			);
@@ -273,6 +270,11 @@
 						DevelopmentTeam = DW5R2L25P8;
 						DevelopmentTeamName = "VLADISLAV TAIURSKIY (Personal Team)";
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					F5A3B6E41D1A8A0E005CCF5E = {
 						CreatedOnToolsVersion = 8.0;
@@ -470,7 +472,6 @@
 				F5A3B6D71D1A8A0E005CCF5E /* StartScreenVC.swift in Sources */,
 				F5A3B6D51D1A8A0E005CCF5E /* AppDelegate.swift in Sources */,
 				F5DC84981D1AD19B00CA8FAC /* ProfileVC.swift in Sources */,
-				F5A3B7031D1A8BB4005CCF5E /* Readme.md in Sources */,
 				F5A3B70E1D1A97F5005CCF5E /* HomeVC.swift in Sources */,
 				F5A3B70A1D1A9775005CCF5E /* SignUpVC.swift in Sources */,
 				F5A3B7071D1A9735005CCF5E /* SignInVC.swift in Sources */,
