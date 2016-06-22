@@ -8,16 +8,32 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var storyboard: UIStoryboard?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         FIRApp.configure()
+        
+        let authUser = UserDefaults.standard().value(forKey: "uid")
+        
+        storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let startScreenVC = storyboard?.instantiateViewController(withIdentifier: "Start")
+        let homeVC = storyboard?.instantiateViewController(withIdentifier: "Home")
+        
+        if authUser != nil {
+            self.window?.rootViewController = homeVC
+        } else {
+            self.window?.rootViewController = startScreenVC
+        }
+        
                   
         
         return true
