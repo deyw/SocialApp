@@ -48,7 +48,7 @@
 		F5A3B6F01D1A8A0E005CCF5E /* SocialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A3B6F41D1A8A0E005CCF5E /* SocialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppUITests.swift; sourceTree = "<group>"; };
 		F5A3B6F61D1A8A0E005CCF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5A3B7021D1A8BB4005CCF5E /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		F5A3B7021D1A8BB4005CCF5E /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = SocialApp/Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		F5A3B6C81D1A8A0E005CCF5E = {
 			isa = PBXGroup;
 			children = (
+				F5A3B7021D1A8BB4005CCF5E /* Readme.md */,
 				F5A3B6D31D1A8A0E005CCF5E /* SocialApp */,
 				F5A3B6E81D1A8A0E005CCF5E /* SocialAppTests */,
 				F5A3B6F31D1A8A0E005CCF5E /* SocialAppUITests */,
@@ -105,7 +106,6 @@
 				F5A3B6DB1D1A8A0E005CCF5E /* Assets.xcassets */,
 				F5A3B6DD1D1A8A0E005CCF5E /* LaunchScreen.storyboard */,
 				F5A3B6E01D1A8A0E005CCF5E /* Info.plist */,
-				F5A3B7021D1A8BB4005CCF5E /* Readme.md */,
 			);
 			path = SocialApp;
 			sourceTree = "<group>";
