@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A3B6D51D1A8A0E005CCF5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6D41D1A8A0E005CCF5E /* AppDelegate.swift */; };
+		F5A3B6D71D1A8A0E005CCF5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6D61D1A8A0E005CCF5E /* ViewController.swift */; };
+		F5A3B6DA1D1A8A0E005CCF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A3B6D81D1A8A0E005CCF5E /* Main.storyboard */; };
+		F5A3B6DC1D1A8A0E005CCF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A3B6DB1D1A8A0E005CCF5E /* Assets.xcassets */; };
+		F5A3B6DF1D1A8A0E005CCF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A3B6DD1D1A8A0E005CCF5E /* LaunchScreen.storyboard */; };
+		F5A3B6EA1D1A8A0E005CCF5E /* SocialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6E91D1A8A0E005CCF5E /* SocialAppTests.swift */; };
+		F5A3B6F51D1A8A0E005CCF5E /* SocialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6F41D1A8A0E005CCF5E /* SocialAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A3B6E61D1A8A0E005CCF5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A3B6C91D1A8A0E005CCF5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A3B6D01D1A8A0E005CCF5E;
+			remoteInfo = SocialApp;
+		};
+		F5A3B6F11D1A8A0E005CCF5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A3B6C91D1A8A0E005CCF5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A3B6D01D1A8A0E005CCF5E;
+			remoteInfo = SocialApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5A3B6D11D1A8A0E005CCF5E /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A3B6D41D1A8A0E005CCF5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5A3B6D61D1A8A0E005CCF5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5A3B6D91D1A8A0E005CCF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5A3B6DB1D1A8A0E005CCF5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5A3B6DE1D1A8A0E005CCF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5A3B6E01D1A8A0E005CCF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A3B6E51D1A8A0E005CCF5E /* SocialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A3B6E91D1A8A0E005CCF5E /* SocialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppTests.swift; sourceTree = "<group>"; };
+		F5A3B6EB1D1A8A0E005CCF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A3B6F01D1A8A0E005CCF5E /* SocialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A3B6F41D1A8A0E005CCF5E /* SocialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppUITests.swift; sourceTree = "<group>"; };
+		F5A3B6F61D1A8A0E005CCF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A3B6CE1D1A8A0E005CCF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3B6E21D1A8A0E005CCF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3B6ED1D1A8A0E005CCF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A3B6C81D1A8A0E005CCF5E = {
+			isa = PBXGroup;
+			children = (
+				F5A3B6D31D1A8A0E005CCF5E /* SocialApp */,
+				F5A3B6E81D1A8A0E005CCF5E /* SocialAppTests */,
+				F5A3B6F31D1A8A0E005CCF5E /* SocialAppUITests */,
+				F5A3B6D21D1A8A0E005CCF5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A3B6D21D1A8A0E005CCF5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3B6D11D1A8A0E005CCF5E /* SocialApp.app */,
+				F5A3B6E51D1A8A0E005CCF5E /* SocialAppTests.xctest */,
+				F5A3B6F01D1A8A0E005CCF5E /* SocialAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A3B6D31D1A8A0E005CCF5E /* SocialApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3B6D41D1A8A0E005CCF5E /* AppDelegate.swift */,
+				F5A3B6D61D1A8A0E005CCF5E /* ViewController.swift */,
+				F5A3B6D81D1A8A0E005CCF5E /* Main.storyboard */,
+				F5A3B6DB1D1A8A0E005CCF5E /* Assets.xcassets */,
+				F5A3B6DD1D1A8A0E005CCF5E /* LaunchScreen.storyboard */,
+				F5A3B6E01D1A8A0E005CCF5E /* Info.plist */,
+			);
+			path = SocialApp;
+			sourceTree = "<group>";
+		};
+		F5A3B6E81D1A8A0E005CCF5E /* SocialAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3B6E91D1A8A0E005CCF5E /* SocialAppTests.swift */,
+				F5A3B6EB1D1A8A0E005CCF5E /* Info.plist */,
+			);
+			path = SocialAppTests;
+			sourceTree = "<group>";
+		};
+		F5A3B6F31D1A8A0E005CCF5E /* SocialAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3B6F41D1A8A0E005CCF5E /* SocialAppUITests.swift */,
+				F5A3B6F61D1A8A0E005CCF5E /* Info.plist */,
+			);
+			path = SocialAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A3B6D01D1A8A0E005CCF5E /* SocialApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A3B6F91D1A8A0E005CCF5E /* Build configuration list for PBXNativeTarget "SocialApp" */;
+			buildPhases = (
+				F5A3B6CD1D1A8A0E005CCF5E /* Sources */,
+				F5A3B6CE1D1A8A0E005CCF5E /* Frameworks */,
+				F5A3B6CF1D1A8A0E005CCF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialApp;
+			productName = SocialApp;
+			productReference = F5A3B6D11D1A8A0E005CCF5E /* SocialApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A3B6E41D1A8A0E005CCF5E /* SocialAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A3B6FC1D1A8A0E005CCF5E /* Build configuration list for PBXNativeTarget "SocialAppTests" */;
+			buildPhases = (
+				F5A3B6E11D1A8A0E005CCF5E /* Sources */,
+				F5A3B6E21D1A8A0E005CCF5E /* Frameworks */,
+				F5A3B6E31D1A8A0E005CCF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A3B6E71D1A8A0E005CCF5E /* PBXTargetDependency */,
+			);
+			name = SocialAppTests;
+			productName = SocialAppTests;
+			productReference = F5A3B6E51D1A8A0E005CCF5E /* SocialAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5A3B6EF1D1A8A0E005CCF5E /* SocialAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A3B6FF1D1A8A0E005CCF5E /* Build configuration list for PBXNativeTarget "SocialAppUITests" */;
+			buildPhases = (
+				F5A3B6EC1D1A8A0E005CCF5E /* Sources */,
+				F5A3B6ED1D1A8A0E005CCF5E /* Frameworks */,
+				F5A3B6EE1D1A8A0E005CCF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A3B6F21D1A8A0E005CCF5E /* PBXTargetDependency */,
+			);
+			name = SocialAppUITests;
+			productName = SocialAppUITests;
+			productReference = F5A3B6F01D1A8A0E005CCF5E /* SocialAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A3B6C91D1A8A0E005CCF5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Vladislav Taiurskiy";
+				TargetAttributes = {
+					F5A3B6D01D1A8A0E005CCF5E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DW5R2L25P8;
+						DevelopmentTeamName = "VLADISLAV TAIURSKIY (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					F5A3B6E41D1A8A0E005CCF5E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DW5R2L25P8;
+						DevelopmentTeamName = "VLADISLAV TAIURSKIY (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5A3B6D01D1A8A0E005CCF5E;
+					};
+					F5A3B6EF1D1A8A0E005CCF5E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DW5R2L25P8;
+						DevelopmentTeamName = "VLADISLAV TAIURSKIY (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5A3B6D01D1A8A0E005CCF5E;
+					};
+				};
+			};
+			buildConfigurationList = F5A3B6CC1D1A8A0E005CCF5E /* Build configuration list for PBXProject "SocialApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5A3B6C81D1A8A0E005CCF5E;
+			productRefGroup = F5A3B6D21D1A8A0E005CCF5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A3B6D01D1A8A0E005CCF5E /* SocialApp */,
+				F5A3B6E41D1A8A0E005CCF5E /* SocialAppTests */,
+				F5A3B6EF1D1A8A0E005CCF5E /* SocialAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A3B6CF1D1A8A0E005CCF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A3B6DF1D1A8A0E005CCF5E /* LaunchScreen.storyboard in Resources */,
+				F5A3B6DC1D1A8A0E005CCF5E /* Assets.xcassets in Resources */,
+				F5A3B6DA1D1A8A0E005CCF5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3B6E31D1A8A0E005CCF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3B6EE1D1A8A0E005CCF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A3B6CD1D1A8A0E005CCF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A3B6D71D1A8A0E005CCF5E /* ViewController.swift in Sources */,
+				F5A3B6D51D1A8A0E005CCF5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3B6E11D1A8A0E005CCF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A3B6EA1D1A8A0E005CCF5E /* SocialAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A3B6EC1D1A8A0E005CCF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A3B6F51D1A8A0E005CCF5E /* SocialAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A3B6E71D1A8A0E005CCF5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A3B6D01D1A8A0E005CCF5E /* SocialApp */;
+			targetProxy = F5A3B6E61D1A8A0E005CCF5E /* PBXContainerItemProxy */;
+		};
+		F5A3B6F21D1A8A0E005CCF5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A3B6D01D1A8A0E005CCF5E /* SocialApp */;
+			targetProxy = F5A3B6F11D1A8A0E005CCF5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5A3B6D81D1A8A0E005CCF5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A3B6D91D1A8A0E005CCF5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A3B6DD1D1A8A0E005CCF5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A3B6DE1D1A8A0E005CCF5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A3B6F71D1A8A0E005CCF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5A3B6F81D1A8A0E005CCF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A3B6FA1D1A8A0E005CCF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vlad.SocialApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F5A3B6FB1D1A8A0E005CCF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vlad.SocialApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F5A3B6FD1D1A8A0E005CCF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vlad.SocialAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialApp.app/SocialApp";
+			};
+			name = Debug;
+		};
+		F5A3B6FE1D1A8A0E005CCF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vlad.SocialAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialApp.app/SocialApp";
+			};
+			name = Release;
+		};
+		F5A3B7001D1A8A0E005CCF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocialAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vlad.SocialAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SocialApp;
+			};
+			name = Debug;
+		};
+		F5A3B7011D1A8A0E005CCF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocialAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vlad.SocialAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SocialApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A3B6CC1D1A8A0E005CCF5E /* Build configuration list for PBXProject "SocialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A3B6F71D1A8A0E005CCF5E /* Debug */,
+				F5A3B6F81D1A8A0E005CCF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A3B6F91D1A8A0E005CCF5E /* Build configuration list for PBXNativeTarget "SocialApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A3B6FA1D1A8A0E005CCF5E /* Debug */,
+				F5A3B6FB1D1A8A0E005CCF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5A3B6FC1D1A8A0E005CCF5E /* Build configuration list for PBXNativeTarget "SocialAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A3B6FD1D1A8A0E005CCF5E /* Debug */,
+				F5A3B6FE1D1A8A0E005CCF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5A3B6FF1D1A8A0E005CCF5E /* Build configuration list for PBXNativeTarget "SocialAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A3B7001D1A8A0E005CCF5E /* Debug */,
+				F5A3B7011D1A8A0E005CCF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5A3B6C91D1A8A0E005CCF5E /* Project object */;
+}
