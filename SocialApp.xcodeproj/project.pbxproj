@@ -10,6 +10,9 @@
 		629D703C51859AF8B99A34AA /* Pods_SocialAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE91581C969E90B9485F59ED /* Pods_SocialAppTests.framework */; };
 		8FDAAA1481A6493CF2B23A9E /* Pods_SocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD9C1C7D56948251DC8B485 /* Pods_SocialApp.framework */; };
 		9540BE0888BED075C6234C24 /* Pods_SocialAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6144E8F9D05D27CB01CDEC4B /* Pods_SocialAppUITests.framework */; };
+		F5873B9A1D1BC620000FFC74 /* PostFeedsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5873B991D1BC620000FFC74 /* PostFeedsVC.swift */; };
+		F5873B9C1D1BCD7C000FFC74 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5873B9B1D1BCD7C000FFC74 /* Extensions.swift */; };
+		F5873B9E1D1BCF97000FFC74 /* PostFeedsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5873B9D1D1BCF97000FFC74 /* PostFeedsCell.swift */; };
 		F5A3B6D51D1A8A0E005CCF5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6D41D1A8A0E005CCF5E /* AppDelegate.swift */; };
 		F5A3B6D71D1A8A0E005CCF5E /* StartScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A3B6D61D1A8A0E005CCF5E /* StartScreenVC.swift */; };
 		F5A3B6DA1D1A8A0E005CCF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A3B6D81D1A8A0E005CCF5E /* Main.storyboard */; };
@@ -52,6 +55,9 @@
 		BE91581C969E90B9485F59ED /* Pods_SocialAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46AA9A657B91D89CB20327A /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
 		DDD9C1C7D56948251DC8B485 /* Pods_SocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5873B991D1BC620000FFC74 /* PostFeedsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFeedsVC.swift; sourceTree = "<group>"; };
+		F5873B9B1D1BCD7C000FFC74 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F5873B9D1D1BCF97000FFC74 /* PostFeedsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFeedsCell.swift; sourceTree = "<group>"; };
 		F5A3B6D11D1A8A0E005CCF5E /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A3B6D41D1A8A0E005CCF5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5A3B6D61D1A8A0E005CCF5E /* StartScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenVC.swift; sourceTree = "<group>"; };
@@ -157,6 +163,7 @@
 				F5A3B7041D1A8D68005CCF5E /* GoogleService-Info.plist */,
 				F5DC84991D1ADAF700CA8FAC /* video.mov */,
 				F5A3B7081D1A974A005CCF5E /* Views */,
+				F5873B9B1D1BCD7C000FFC74 /* Extensions.swift */,
 			);
 			path = SocialApp;
 			sourceTree = "<group>";
@@ -187,6 +194,8 @@
 				F5A3B7091D1A9775005CCF5E /* SignUpVC.swift */,
 				F5A3B70D1D1A97F5005CCF5E /* HomeVC.swift */,
 				F5DC84971D1AD19B00CA8FAC /* ProfileVC.swift */,
+				F5873B991D1BC620000FFC74 /* PostFeedsVC.swift */,
+				F5873B9D1D1BCF97000FFC74 /* PostFeedsCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -469,10 +478,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5873B9E1D1BCF97000FFC74 /* PostFeedsCell.swift in Sources */,
 				F5A3B6D71D1A8A0E005CCF5E /* StartScreenVC.swift in Sources */,
 				F5A3B6D51D1A8A0E005CCF5E /* AppDelegate.swift in Sources */,
 				F5DC84981D1AD19B00CA8FAC /* ProfileVC.swift in Sources */,
+				F5873B9C1D1BCD7C000FFC74 /* Extensions.swift in Sources */,
 				F5A3B70E1D1A97F5005CCF5E /* HomeVC.swift in Sources */,
+				F5873B9A1D1BC620000FFC74 /* PostFeedsVC.swift in Sources */,
 				F5A3B70A1D1A9775005CCF5E /* SignUpVC.swift in Sources */,
 				F5A3B7071D1A9735005CCF5E /* SignInVC.swift in Sources */,
 			);
